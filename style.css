@@ -63,7 +63,6 @@ body {
     border-bottom: 1px solid #e5e5e5;
     padding-top:90px;
     padding-bottom: 90px;
-    background: url('../img/banner.jpg') 0 -80px;
     color:#fff;
   }
   
@@ -140,6 +139,10 @@ body {
     margin-bottom:10px;
     border:0;
   }
+
+  textarea{
+    resize: none;
+  }
   
   .pt20{padding-top:20px;}
   .pb20{padding-bottom:20px;}
@@ -194,4 +197,8 @@ body {
   article.post img{
     width:100%;
     margin-bottom: 20px;
+  }
+  .bug-button{
+    cursor: pointer !important;
+    pointer-events: all !important; 
   }

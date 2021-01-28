@@ -7,9 +7,9 @@
 
       <div class="jumbotron">
         <div class="container">
-          <h1>Jumbotron heading</h1>
-          <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <h1><?php echo get_theme_mod('banner_heading', 'Banner Heading'); ?></h1>
+          <p class="lead"><?php echo get_theme_mod('banner_text', 'Banner Heading'); ?></p>
+          <p><a class="btn btn-lg btn-primary" href="<?php echo get_theme_mod('banner_btn_url', 'https://www.cyberleviathan.com'); ?>" ><?php echo get_theme_mod('banner_btn_text', 'Sign Up!'); ?></a></p>
         </div>
       </div>
 
