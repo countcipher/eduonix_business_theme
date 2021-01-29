@@ -18,8 +18,8 @@
           <div class="col-lg-4">
             <div class="block">
               <i class="fa fa-bar-chart fa-3"></i>
-              <h3>Subheading</h3>
-              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+              <h3><?php echo get_theme_mod('box1_heading', 'Testing'); ?></h3>
+              <p><?php echo get_theme_mod('box1_text', 'Sample Text'); ?></p>
             </div>
           </div>
 

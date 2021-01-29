@@ -78,7 +78,7 @@ function business_customize_register($wp_customize){
         'type'      =>  'theme_mod'
     ]);
 
-    //BACKGROUND IMAGE SETTING
+    //BACKGROUND IMAGE CONTROL
     //=======================
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'banner_image', array(
 
@@ -97,18 +97,18 @@ function business_customize_register($wp_customize){
     ));
 
     //BOX 1 HEADING SETTING
-    //======================
-    $wp_customize->add_setting('box_1', array(
+    //===========================
+    $wp_customize->add_setting('box1_heading',[
         'default'   =>  _x('Box 1 Heading', 'business'),
-        'type'      =>  'theme_mod'
-    ));
+        'type'  =>  'theme_mod'
+    ]);
 
     //BOX 1 HEADING CONTROL
-    //=======================
-    $wp_customize->add_control('box_1_heading', [
-        'label'   =>  __('Box 1 Heading', 'business'),
-        'section'      =>  'boxes',
-        'priority'      =>  20
+    //=============================
+    $wp_customize->add_control('box1_heading', [
+        'label' =>  __('Box 1 Heading', 'business'),
+        'section'   =>  'boxes',
+        'priority'  =>  20
     ]);
 
     //BOX 1 TEXT SETTING
@@ -150,7 +150,7 @@ function business_customize_register($wp_customize){
 
     //BOX 2 HEADING CONTROL
     //=======================
-    $wp_customize->add_control('box_2_heading', [
+    $wp_customize->add_control('box_2', [
         'label'   =>  __('Box 2 Heading', 'business'),
         'section'      =>  'boxes',
         'priority'      =>  20
@@ -195,7 +195,7 @@ function business_customize_register($wp_customize){
 
     //BOX 3 HEADING CONTROL
     //=======================
-    $wp_customize->add_control('box_3_heading', [
+    $wp_customize->add_control('box_3', [
         'label'   =>  __('Box 3 Heading', 'business'),
         'section'      =>  'boxes',
         'priority'      =>  20
