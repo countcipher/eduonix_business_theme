@@ -17,7 +17,7 @@
         <div class="container">
           <div class="col-lg-4">
             <div class="block">
-              <i class="fa fa-bar-chart fa-3"></i>
+              <i class="fa fa-<?php echo get_theme_mod('box1_icon', 'bar-chart'); ?> fa-3"></i>
               <h3><?php echo get_theme_mod('box1_heading', 'Testing'); ?></h3>
               <p><?php echo get_theme_mod('box1_text', 'Sample Text'); ?></p>
             </div>
@@ -25,17 +25,17 @@
 
           <div class="col-lg-4">
             <div class="block">
-            <i class="fa fa-code fa-3"></i>
-              <h3>Subheading</h3>
-              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+              <i class="fa fa-<?php echo get_theme_mod('box2_icon', 'bar-chart'); ?> fa-3"></i>
+              <h3><?php echo get_theme_mod('box_2', 'Testing'); ?></h3>
+              <p><?php echo get_theme_mod('box2_text', 'Sample Text'); ?></p>
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="block">
-            <i class="fa fa-desktop fa-3"></i>
-              <h3>Subheading</h3>
-              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <i class="fa fa-<?php echo get_theme_mod('box3_icon', 'bar-chart'); ?> fa-3"></i>
+              <h3><?php echo get_theme_mod('box_3', 'Testing'); ?></h3>
+              <p><?php echo get_theme_mod('box3_text', 'Sample Text'); ?></p>
             </div>
           </div>
         </div>

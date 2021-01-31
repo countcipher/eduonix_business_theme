@@ -96,6 +96,7 @@ body {
   
   .marketing{
     margin:40px 0;
+    display: flex;
   }
   
   .content-region-1{
@@ -201,4 +202,15 @@ body {
   .bug-button{
     cursor: pointer !important;
     pointer-events: all !important; 
+  }
+
+  .marketing .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .marketing .container .block{
+    width: 100%;
+    height: 100%;
   }
